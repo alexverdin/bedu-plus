@@ -3,6 +3,6 @@ exports.getArticles = function (req, res) {
 };
 
 exports.createArticle = function(req, res){
-    console.log(process.env.KIRBY_ASCII);
-    res.send(req.body);
+    console.log(req.body);
+    res.send("Article Created");
 };
