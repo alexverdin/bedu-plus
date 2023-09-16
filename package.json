@@ -1,0 +1,27 @@
+{
+  "name": "bedu-plus",
+  "version": "1.0.0",
+  "description": "New social network",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexverdin/bedu-plus.git"
+  },
+  "author": "alexverdin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexverdin/bedu-plus/issues"
+  },
+  "homepage": "https://github.com/alexverdin/bedu-plus#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
